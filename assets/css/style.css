@@ -1,0 +1,107 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: #1A532D;
+}
+
+div {
+    width: 40rem;
+    height: 30rem;
+    background-color: #fdfdfd;
+    display: flex;
+    justify-content: center;
+}
+
+.imagelog {
+    width: 50rem;
+    height: 100rem;
+}
+
+.logo {
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoseedside {
+    width: 20%;
+    height: 13%;
+
+}
+
+.user {
+    width: 13rem;
+    height: 2.5rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #949393);
+    background-color: #EDEBEB;
+
+}
+
+.logoUser {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .2rem;
+}
+
+.password {
+    width: 13rem;
+    height: 2.5rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #949393);
+    background-color: #EDEBEB;
+
+}
+
+.logoLock {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: .2rem;
+}
+
+input {
+    border: none;
+    color: #565555;
+    background-color: #EDEBEB;
+}
+
+.forgot {
+    width: 10 rem;
+    text-decoration: none;
+    font-size: small;
+    margin: .1;
+    color: rgb(5, 5, 5);
+}
+
+button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: none;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(1px 1px 2px #949393);
+    background-color: #82CD8A;
+
+}
+
+.forgotlogin {
+    width: 13rem;
+    height: 6rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        position: absolute;
+
+    }
+}
