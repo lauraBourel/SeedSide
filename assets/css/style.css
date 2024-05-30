@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: inter;
+}
+
+.contain{
+    width: 100%;
+    height: 100em;
+    display: flex;
+    justify-content:space-around;
+    background-color: rgb(117, 236, 201);
+}
+
+.problem {
+    background-color: rgb(8, 66, 47);
+    color: white;
+    width: 4rem
+}
+
+.wishes {
+    background-color: rgb(8, 66, 47);
+    color: white;
+    width: 4rem;
+}
+
+.Interests {
+    background-color: rgb(8, 66, 47);
+    color: white;
+    width: 4rem
+}
+
+.Strengths {
+    background-color: rgb(8, 66, 47);
+    color: white;
+    width: 4rem
+}
+
+.Difficulties {
+    background-color: rgb(8, 66, 47);
+    color: white;
+    width: 6rem
+}
+.btn{
+    background-color: rgb(48, 185, 44);
+    color: white;
+    width: 4rem
+}
+.haut{
+    display: flex;
+    justify-content: space-around;
+}
