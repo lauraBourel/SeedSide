@@ -1,0 +1,83 @@
+ body {
+     margin: 0;
+     padding: 0;
+     font-family: Inter;
+     
+ }
+
+ .page {
+     margin: 0;
+     padding: 0;
+     width: 100%;
+     height: 100em;
+     display: flex;
+     font-family: Inter;
+ }
+
+ .index {
+     width: 100%;
+     height: 90%;
+     background-color: aqua;
+     display: flex;
+     flex-direction: column;
+     /* background-image: url("file:///C:/Users/sarah/Documents/LaManu/seedside/code seedside/assets/img/leaf_fuzzy.png"); */
+     background-image: url(../img/leaf_fuzzy.png);
+ }
+ .topnav {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(181, 209, 223);
+}
+.login {
+    padding: 0.8rem;
+    width: auto;
+    height: auto;
+    border: 0;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: row;
+    background-color: #82cd8a;
+    
+}
+ h1 {
+     font-size: 40px;
+     font-weight: bold;
+     color: #221f1f;
+
+ }
+
+ h2 {
+     font-size: 30px;
+     color:#221f1f;
+     font-weight: bolder
+ }
+
+ h3 {
+     font-size: 23px;
+     color: #221f1f;
+     font-weight: bolder
+ }
+
+ .p_sm {
+     margin: 0;
+     font-size: 17px;
+     font-weight: bold;
+     color: #221f1f;
+ }
+
+ .p_login {
+     font-size: 20px;
+     font-weight: bold;
+     color: #221f1f;
+ }
+
+ .p_text_search {
+     font-size: 18px;
+     font-weight: bold;
+     color: lightgrey;
+ }
+ 
