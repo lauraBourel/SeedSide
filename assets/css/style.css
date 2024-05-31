@@ -102,6 +102,11 @@ button {
 @media (max-width: 600px) {
     .logo {
         position: absolute;
-
     }
+
+    div {
+        width: 20rem;
+        height: 30rem;
+    }
+
 }
