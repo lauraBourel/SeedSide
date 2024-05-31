@@ -2,47 +2,110 @@
      margin: 0;
      padding: 0;
      font-family: Inter;
-     
+
  }
 
  .page {
      margin: 0;
      padding: 0;
      width: 100%;
-     height: 100em;
+     height: 56em;
      display: flex;
      font-family: Inter;
  }
 
  .index {
      width: 100%;
-     height: 90%;
+     height: 100%;
      background-color: aqua;
      display: flex;
      flex-direction: column;
-     /* background-image: url("file:///C:/Users/sarah/Documents/LaManu/seedside/code seedside/assets/img/leaf_fuzzy.png"); */
      background-image: url(../img/leaf_fuzzy.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
  }
+
  .topnav {
-    width: 100%;
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(181, 209, 223);
-}
-.login {
-    padding: 0.8rem;
-    width: auto;
-    height: auto;
-    border: 0;
-    border-radius: 3px;
-    display: flex;
-    flex-direction: row;
-    background-color: #82cd8a;
-    
-}
+     width: 100%;
+     height: 5rem;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgb(181, 209, 223);
+ }
+
+ .main {
+     padding: 1rem;
+     width: auto;
+     height: 100%;
+     border: 0;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .footer {
+     padding: 1rem;
+     width: auto;
+     height: 10rem;
+     border: 0;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     background-color: #1f3423;
+ }
+
+ .login {
+     padding: 0.8rem;
+     width: 13rem;
+     height: auto;
+     border: 0;
+     border-radius: 3px;
+     display: flex;
+     flex-direction: row;
+     
+     background-color: #82cd8a;
+
+ }
+
+ .calendar {
+     min-width: 15rem;
+     width: 35%;
+     height: 100%;
+     border: 0;
+     border-radius: 3px;
+     display: flex;
+     flex-direction: row;
+     background-color: hsla(326, 13%, 90%, 0.4);
+ }
+
+ .contactmanu {
+     text-align: start;
+     width: auto;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     justify-content: center;
+ }
+
+ .legalprivacy {
+     margin: 0;
+     width: auto;
+     height: auto;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+
+ .pfo {
+     margin: 0;
+     font-size: 18px;
+     font-family: Arial;
+     color: #c6ccc7
+ }
+
  h1 {
      font-size: 40px;
      font-weight: bold;
@@ -52,7 +115,7 @@
 
  h2 {
      font-size: 30px;
-     color:#221f1f;
+     color: #221f1f;
      font-weight: bolder
  }
 
@@ -66,6 +129,7 @@
      margin: 0;
      font-size: 17px;
      font-weight: bold;
+     font-family: Arial;
      color: #221f1f;
  }
 
@@ -80,4 +144,3 @@
      font-weight: bold;
      color: lightgrey;
  }
- 
