@@ -4,7 +4,7 @@ body {
     background-color: #1A532D;
 }
 
-div{
+div {
     width: 40rem;
     height: 30rem;
     background-color: #fdfdfd;
@@ -112,7 +112,7 @@ button {
     width: 2rem;
     height: 2rem;
 }
-
+/* createAccount */
 .inputemail {
     width: 13rem;
     height: 2.5rem;
@@ -143,12 +143,19 @@ button {
 }
 
 .titlecreateaccount {
-    margin:0rem;
+    margin: 0rem;
     margin-bottom: 1rem;
 
 }
+/* calendar */
+table {
+    color: white;
+}
 
-
+.backgroundwood {
+    width: 10rem;
+    height: 10rem;
+}
 
 
 
