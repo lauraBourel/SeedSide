@@ -4,17 +4,12 @@ body {
     background-color: #1A532D;
 }
 
-div {
+div{
     width: 40rem;
     height: 30rem;
     background-color: #fdfdfd;
     display: flex;
     justify-content: center;
-}
-
-.imagelog {
-    width: 50rem;
-    height: 100rem;
 }
 
 .logo {
@@ -118,6 +113,48 @@ button {
     height: 2rem;
 }
 
+.inputemail {
+    width: 13rem;
+    height: 2.5rem;
+    margin: .5rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px #949393);
+    background-color: #EDEBEB;
+
+}
+
+.logoemail {
+    width: 1rem;
+    height: 1rem;
+    margin: .2rem;
+}
+
+.signup {
+    font-weight: bold;
+    margin: 1rem;
+    color: rgb(250, 247, 247);
+}
+
+.titlecreate {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+.titlecreateaccount {
+    margin:0rem;
+    margin-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+
 @media (max-width: 600px) {
     .logo {
         position: absolute;
@@ -129,7 +166,7 @@ button {
     }
 
     .headcontain {
-        width: 23rem;
+        width: 21rem;
     }
 
     .crosscontain {
