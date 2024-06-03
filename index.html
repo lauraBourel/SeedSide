@@ -8,44 +8,45 @@
     <link href="assets\css\style.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="page">
-        <div class="index">
-            <div class="topnav">
-                <div class="menu">
-                    <p class="p_sm">////</p>
-                </div>
-                <div class="bubblemessage">
-                    <p class="p_sm">000</p>
-                </div>
-                <div class="search_container">
-                    <div class="glass"><p class="p_sm"></p></div>
-                    <input type="text" placeholder="Search.." name="search">
-                </div>
-                <button class="login">
-                    <p class="p_sm">(icon)</p>
-                    <p class="p_sm">LOGIN</p>
-                </button>
+<body class="indexBody">
+    <div class="indexPage">
+        <nav class="indexTopnav">
+            <button class="nav">
+                <p class="psm">///</p>
+            </button>
+            <a class="bubbleMessage">
+                <p class="psm">000</p>
+            </a>
+            <div class="searchContainer">
+                <ion-icon class="iconGlass" name="search-outline" aria-label="Favorite"></ion-icon>
+                <input type="text" placeholder="Search.." name="search">
             </div>
-            <div class="main">
-                <div class="calendar"></div>
-                <div class="logo"></div>
-                <div class="new"></div>
-            </div>
-        </div>
-        <div class="footer">
-            <div class="contactmanu">
-                <p class="pfo">LaManuEcology</p>
-                <p class="pfo">238 Earls Ct Rd, London SW5 9AA</p>
-                <p class="pfo">+44 20 7123 4567</p>
-                <p class="pfo">contact@lamanuecology.com</p>
-            </div>
-            <div class="legalprivacy">
-                <p class="pfo">Legal Notice - Privacy Policy</p>
-            </div>
+            <button class="buttonLogin">
+                <ion-icon class="iconProfile" name="person-outline" size="large" aria-hidden="true"></ion-icon>
+                <p class="psm">LOGIN</p>
+            </button>
+        </nav>
+        <div class="indexMain">
+            <div class="indexMenu"></div>
+            <div class="indexLogo"><img class="indexImg"  src="assets\img\seedsidelogo.png" alt="logo"></div>
+            <div class="indexNew"><p class="psm">New in SeedSide ?</p></div>
         </div>
     </div>
+    <div class="footer">
+        <div class="contactManu">
+            <p class="pf">LaManuEcology</p>
+            <p class="pf">238 Earls Ct Rd, London SW5 9AA</p>
+            <p class="pf">+44 20 7123 4567</p>
+            <p class="pf">contact@lamanuecology.com</p>
+        </div>
+        <div class="legalPrivacy">
+            <p class="pf"><a href="url">Legal Notice</a> - <a href="url">Privacy Policy</a></p>
+        </div>
+    </div>
+    </div>
 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

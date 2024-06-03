@@ -1,34 +1,28 @@
- body {
-     margin: 0;
-     padding: 0;
-     font-family: Inter;
-
- }
-
- .page {
+ .indexBody {
      margin: 0;
      padding: 0;
      width: 100%;
-     height: 52em;
      display: flex;
      flex-direction: column;
      font-family: Inter;
-     background-color: #ba2323
+     background-color: aqua;
+
  }
 
- .index {
+ .indexPage {
+     margin: 0;
+     padding: 0;
      width: 100%;
-     height: 100%;
      display: flex;
      flex-direction: column;
-     background-image: url(../img/leaf.png);
+     background-image: url(../img/rain.png), url(../img/leaf.png);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: center;
      background-color: #4a3b3b
  }
 
- .topnav {
+ .indexTopnav {
      width: 100%;
      height: 5rem;
      display: flex;
@@ -37,142 +31,167 @@
      align-items: center;
  }
 
- .search_container {
+ .psm {
+     margin: 0;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: Arial;
+     color: #221f1f;
+ }
+
+ .searchContainer {
+     padding: 0;
+     width: 40rem;
+     height: 70%;
      display: flex;
      flex-direction: row;
  }
 
- .search_container input[type=text] {
-     padding: 0.8rem;
-     width: auto;
+ .searchContainer input[type=text] {
+     padding: 1rem;
      border: 0;
+     border-top-right-radius: .2rem;
+     border-bottom-right-radius: .2rem;
+     width: 90%;
      font-size: 17px;
+     text-rendering: 1;
      background-color: #82cd8a;
  }
 
- .search_container .glass {
+ .iconGlass {
      padding: 0rem;
-     width: 3rem;
-     background-color: rgba(255, 185, 80, 0.3);
+     border-top-left-radius: .2rem;
+     border-bottom-left-radius: .2rem;
+     width: 10%;
+     height: 100%;
+     background-color: #82cd8a;
  }
 
- .main {
-     padding: 1rem;
-     width: auto;
-     height: 100%;
+ .indexMain {
      border: 0;
+     width: 100%;
+     height: 40rem;
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
+     background-color: rgba(82, 160, 244, 0.3);
  }
 
  .footer {
      padding: 1rem;
-     width: auto;
-     height: auto;
      border: 0;
+     width: auto;
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      background-color: #1f3423;
  }
 
- button.login {
-     padding: 0.8rem;
-     width: 10rem;
-     height: auto;
+ .buttonLogin {
+     padding: 1rem;
      border: 0;
-     border-radius: 3px;
+     border-radius: .2rem;
+     width: 10rem;
+     height: 70%;
      display: flex;
      flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+     cursor: pointer;
+     font-family: Arial;
      background-color: #82cd8a;
 
  }
 
- .calendar {
+ .iconProfile {
+    padding: 0rem;
+    margin-right: 1rem;
+    width: 20%;
+    height: 100%;
+    background-color: #82cd8a;
+ }
+ .indexMenu {
      min-width: 15rem;
-     width: 35%;
-     height: 100%;
-     border: 0;
+     width: 35% ;
+     height: 40rem;
      border-radius: 3px;
      display: flex;
      flex-direction: row;
-     background-color: rgba(233, 226, 230, 0.4);
+     background-color: rgba(233, 226, 230, .4);
  }
 
- .contactmanu {
-     text-align: start;
-     width: auto;
+ .indexLogo {
+    width: 35%;
+    height: 40rem;
+    background-color: rgba(233, 70, 162, 0.4);
+
+}
+
+.indexImg{
+    width: 100%;
+    height: auto;
+
+}
+
+.indexNew {
+    width: 30%;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(235, 45, 45, 0.4);
+
+}
+
+ .contactManu {
      height: auto;
+     width: auto;
      display: flex;
      flex-direction: column;
-     align-content: center;
      justify-content: center;
+     align-content: center;
+
  }
 
- .legalprivacy {
-     margin: 0;
-     width: auto;
+ .legalPrivacy {
      height: auto;
+     width: auto;
      display: flex;
      flex-direction: column;
      justify-content: flex-end;
 
  }
 
- .pfo {
+ /*modify text searchbar*/
+ *::placeholder {
+     font-size: 20px;
+     font-weight: bold;
+     color: rgb(106, 105, 105, .5);
+ }
+
+ /*modify link*/
+ a {
+     text-decoration: none;
+     color: #c6ccc7;
+ }
+
+ a:hover {
+     text-decoration: underline;
+ }
+
+ /*police footer and small*/
+ .pf {
      margin: 0;
      font-size: 16px;
      font-family: Arial;
      color: #c6ccc7
-     
- }
-
- h1 {
-     font-size: 40px;
-     font-weight: bold;
-     color: #221f1f;
-
- }
-
- h2 {
-     font-size: 30px;
-     color: #221f1f;
-     font-weight: bolder
- }
-
- h3 {
-     font-size: 23px;
-     color: #221f1f;
-     font-weight: bolder
- }
-
- .p_sm {
-     margin: 0;
-     font-size: 17px;
-     font-weight: bold;
-     font-family: Arial;
-     color: #221f1f;
- }
-
- .p_login {
-     font-size: 20px;
-     font-weight: bold;
-     color: #221f1f;
- }
-
- .p_text_search {
-     font-size: 18px;
-     font-weight: bold;
-     color: lightgrey;
  }
 
  @media screen and (max-width: 600px) {
-     .footer  {
+     .footer {
          flex-direction: column;
-         justify-content: space-between ;
-    }
+         justify-content: space-between;
+     }
 
-    .legalprivacy {
-        margin-top: .5rem;
-    }
+     .legalPrivacy {
+         margin-top: .5rem;
+     }
  }
