@@ -1,5 +1,4 @@
-body{
-
+body {
     margin: 0;
 }
 
@@ -14,7 +13,6 @@ body{
 img {
     width: 10%;
     height: 25%;
-
 }
 
 .message {
@@ -68,7 +66,6 @@ img {
     height: 3.5rem;
     width: 3.5rem;
     float: left;
-
 }
 
 .image9 {
@@ -77,18 +74,12 @@ img {
     display: flex;
     justify-self: center;
     align-items: center;
-
-
-
 }
 
 .image2 {
     height: 3.5rem;
     width: 3.5rem;
     float: left;
-
-
-
 }
 
 .galery {
@@ -97,8 +88,6 @@ img {
     display: flex;
     justify-content: end;
     align-content: center;
-    
-
 }
 
 .galery input[type=text] {
@@ -106,31 +95,74 @@ img {
     width: 30rem;
     border: 0;
     border-radius: 15px;
-
-
-
 }
-
-
-
-
 
 .galeriephotos {
     height: 2.5rem;
     width: 2.5rem;
-
-
-
 }
 
-.emoji-right{
-    padding-top: 1rem;
-    padding-left: 2rem;
+.emoji-right {
     height: 3.5rem;
     width: 3.5rem;
     display: flex;
     justify-content: right;
     margin-top: 0;
+}
 
+/*privacy politic*/
 
+.bodyPolitic {
+    margin-left: .7rem;
+    margin-right: .7rem;
+
+}
+
+.politicTitle {
+    text-decoration: underline;
+}
+
+.disclosureTitle {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.businessTransaction {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.lawEnforcement {
+    font-size: large;
+    font-weight: bold;
+}
+
+.securityTitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.childrenTitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.othersWebsites {
+    font-size: large;
+    font-weight: bold;
+}
+
+.changesTitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.contactTitle {
+    font-size: large;
+    font-weight: bold;
+}
+
+.siteLogo {
+    height: 5rem;
+    width: 5rem;
 }
